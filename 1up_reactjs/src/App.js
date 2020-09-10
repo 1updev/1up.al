@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
           HelloOoOo from 1Up Team!
         </a>
       </header>
+      
+      <Footer />
     </div>
   );
 }

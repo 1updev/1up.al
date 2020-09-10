@@ -1,0 +1,22 @@
+img {
+
+    width:30px;
+    height: 30px;
+}
+
+.main-footer
+{
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: #393939;
+color:white;
+}
+.info {
+
+    text-align: left;
+}
+.social 
+{
+    float: right;
+   
+}
