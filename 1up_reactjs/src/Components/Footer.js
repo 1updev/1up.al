@@ -19,8 +19,8 @@ const Footer = () => {
                     <div className="col">
                         
                         <div className="social">
-                            <img src="fb.jpg"></img>
-                            <img src="in.jpg"></img>
+                           <a href="https://www.facebook.com/1UPinteractive"> <img src="fb.jpg"></img></a>
+                            <a href="https://www.linkedin.com/company/1up-interactive-services"><img src="in.jpg"></img></a>
                             <img src="you.jpg"></img>
                             </div>
                       

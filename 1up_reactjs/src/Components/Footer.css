@@ -6,6 +6,7 @@ img {
 
 .main-footer
 {
+    
 padding-top: 30px;
 padding-bottom: 30px;
 background-color: #393939;
@@ -19,4 +20,12 @@ color:white;
 {
     float: right;
    
+}
+.copyright {
+
+    color: #989898;
+
+   
+    display: block;
+    text-align: center;
 }
