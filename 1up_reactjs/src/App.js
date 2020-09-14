@@ -8,6 +8,8 @@ import * as ReactBootStrap from "react-bootstrap";
 function App() {
   return (
     <div className="App">
+
+<body>
       <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <ReactBootStrap.Navbar.Brand href="#home"><img id="logo" src="logo.png"></img></ReactBootStrap.Navbar.Brand>
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -35,17 +37,12 @@ function App() {
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar>
 
+<Section1 id="section1"/>
 
-      <header className="App-header">
-        
-        <a
-          className="App-link"
-        >
-          HelloOoOo from 1Up Team!
-        </a>
-      </header>
-      <body>
-      <Section1/>
+     
+
+    
+    
       </body>
       
       <Footer />
