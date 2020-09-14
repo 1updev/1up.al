@@ -28,7 +28,7 @@ const Section1 = () => {
 
           >
 
-          <source src="ad_campain_leopard_small.mp4" width="100%" />
+          <source src="ad_campain_leopard_small.mp4"/>
 
 
         

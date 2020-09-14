@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Footer from "./Components/Footer";
 import Section1 from "./Components/Section1";
+import Section2 from "./Components/Section2";
 import * as ReactBootStrap from "react-bootstrap";
+import Image from 'react-bootstrap/Image';
 
 function App() {
   return (
@@ -37,9 +39,9 @@ function App() {
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar>
 
-<Section1 id="section1"/>
-
-     
+<Section1/>
+<Section2/>
+  
 
     
     
