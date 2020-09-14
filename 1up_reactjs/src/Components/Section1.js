@@ -22,10 +22,13 @@ const Section1 = () => {
           loop={50}
           autoPlay
           fluid={false}
+          width="100%"
+          height = "auto"
+         
 
           >
 
-          <source src="ad_campain_leopard_small.mp4" />
+          <source src="ad_campain_leopard_small.mp4" width="100%" />
 
 
         
