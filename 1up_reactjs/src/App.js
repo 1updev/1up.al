@@ -2,8 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Footer from "./Components/Footer";
-import Section1 from "./Components/Section1";
-import Section2 from "./Components/Section2";
+import Home from "./Components/Home";
+import Services from "./Components/Services";
 import * as ReactBootStrap from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 
@@ -39,8 +39,8 @@ function App() {
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar>
 
-<Section1/>
-<Section2/>
+<Home/>
+<Services/>
   
 
     
