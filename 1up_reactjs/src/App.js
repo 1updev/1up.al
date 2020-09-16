@@ -4,6 +4,10 @@ import './App.css';
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Services from "./Components/Services";
+import About from "./Components/About";
+import Works from "./Components/Works";
+import Contact from "./Components/Contact";
+
 import * as ReactBootStrap from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 
@@ -41,7 +45,9 @@ function App() {
 
 <Home/>
 <Services/>
-  
+<About/>
+<Works/>
+<Contact/>
 
     
     

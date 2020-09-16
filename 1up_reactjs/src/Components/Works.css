@@ -1,0 +1,104 @@
+section .section-inner {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#works .title a {
+    color: #333333;
+}
+#works {
+    background-color: #d2d2d2;
+    padding-bottom: 58px;
+    padding-top:58px;
+}
+#works .title h2 {
+    text-align: left;
+    border-left: 8px solid #a0a29c;
+    font-size: 60px;
+    font-family: Reznik-DemiBold;
+    font-size: 60px;
+    padding-left: 15px;
+    line-height: 41px;
+    height: 44px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    color: #333333;
+    
+
+}
+
+#works .row-1 {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+#works .works-items .row-1 .item-container {
+    width: 50%;
+}
+
+#works .works-items .item-container {
+    float: left;
+}
+#works .works-items .item-container .item {
+    position: relative;
+    display: grid;
+}
+#works .works-items video {
+    width: 100%;
+    background-color: #060606;
+    position: relative;
+    z-index: 0;
+}
+
+#works .works-items .item-container .item {
+    position: relative;
+    display: grid;
+}
+#works .works-items video {
+    width: 100%;
+    background-color: #060606;
+    position: relative;
+    z-index: 0;
+}
+#works .works-items .item-container .text-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 53px;
+    background: -moz-linear-gradient(top, rgba(20,4,4,0.01) 0%, rgba(20,20,20,0.61) 100%);
+    background: -webkit-linear-gradient(top, rgba(20,4,4,0.01) 0%,rgba(20,20,20,0.61) 100%);
+    background: linear-gradient(to bottom, rgba(20,4,4,0.01) 0%,rgba(20,20,20,0.61) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03140404', endColorstr='#9c141414',GradientType=0 );
+}
+#works .works-items .item-container span {
+    position: absolute;
+    bottom: 22px;
+    color: #fff;
+    left: 12px;
+    border-left: 4px solid #a0a29c;
+    padding-left: 12px;
+    font-size: 19px;
+    cursor: pointer;
+    font-family: "Reznik-Bold";
+    line-height: 15px;
+    height: 15px;
+}
+
+#works .row-1 {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#works .row-3 {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+#works .works-items .item-container {
+    float: left;
+}
+#works .works-items img {
+    width: 100%;
+}
