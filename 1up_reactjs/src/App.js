@@ -15,34 +15,36 @@ function App() {
   return (
     <div className="App">
 
-<body>
-      <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+<header>
+      <ReactBootStrap.Navbar  expand="lg" bg="dark" variant="dark" fixed="top">
   <ReactBootStrap.Navbar.Brand href="#home"><img id="logo" src="logo.png"></img></ReactBootStrap.Navbar.Brand>
-  <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+  <ReactBootStrap.Navbar.Toggle aria-controls=" navbar navbar-inverse navbar-fixed-top" />
+  <ReactBootStrap.Navbar.Collapse id="navbar navbar-inverse navbar-fixed-top">
     <ReactBootStrap.Nav className="mr-auto">
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
-      <ReactBootStrap.Nav.Link href="#deets">HOME</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
+      <ReactBootStrap.Nav.Link  href="#home">HOME</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link  eventKey={2} href="#services">
         SERVICES
       </ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link eventKey={3} href="#memes">
+      <ReactBootStrap.Nav.Link eventKey={3} href="#about">
         ABOUT
       </ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link eventKey={3} href="#memes">
+      <ReactBootStrap.Nav.Link eventKey={4} href="#works">
         WORK
-      </ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link eventKey={3} href="#memes">
+      </ReactBootStrap.Nav.Link> 
+      <ReactBootStrap.Nav.Link eventKey={5} href="#solutions">
         SOLUTIONS
       </ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link eventKey={3} href="#memes">
+      <ReactBootStrap.Nav.Link eventKey={6} href="#contact">
         CONTACTS
       </ReactBootStrap.Nav.Link>
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar>
 
+</header>
+<body id="body">
 <Home/>
 <Services/>
 <About/>

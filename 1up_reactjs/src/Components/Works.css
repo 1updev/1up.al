@@ -9,7 +9,7 @@ section .section-inner {
 #works {
     background-color: #d2d2d2;
     padding-bottom: 58px;
-    padding-top:58px;
+    padding-top:120px;
 }
 #works .title h2 {
     text-align: left;
@@ -24,7 +24,19 @@ section .section-inner {
     margin-bottom: 60px;
     color: #333333;
     
+}
+#works .works-items img {
+    width: 100%;
+    height: 375px;
 
+}
+#works .works-items .item-container .item {
+    position: relative;
+    display: grid;
+}
+
+img {
+    vertical-align: middle;
 }
 
 #works .row-1 {

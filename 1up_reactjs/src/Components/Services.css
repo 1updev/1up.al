@@ -40,9 +40,7 @@ margin-block-start: 0.83em;
     min-height: 100vh;
     text-align: center;
     background: #d2d2d2;
-}
-#services {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 60px;
 }
 h1, h2, h3, h4, h5, h6, a, p, span, div, i, ul, li, section, main {

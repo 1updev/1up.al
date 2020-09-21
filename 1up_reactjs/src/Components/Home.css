@@ -1,6 +1,13 @@
 #player
 {
-    align-content: left;
+    align-content: left; 
+
+    
+}
+
+#move
+{
+    padding-top: 90px;
 }
 
 video {

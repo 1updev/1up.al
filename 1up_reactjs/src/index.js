@@ -5,8 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import WebFont from 'webfontloader';
 
 
+WebFont.load ({
+  google: {
+    families: ['Montserrat Web:300,400,700', 'sans-serif']
+  }
+})
 ReactDOM.render(
   <React.StrictMode>
     <App />

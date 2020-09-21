@@ -1,6 +1,16 @@
 
 import React from 'react';
 import "./Works.css";
+import { Player,
+  ControlBar,
+  ReplayControl,
+  BigPlayButton,
+  ForwardControl,
+  CurrentTimeDisplay,
+  TimeDivider,
+  PlaybackRateMenuButton,
+  VolumeMenuButton } from 'video-react';
+
 
 const Works = () => {
 
@@ -21,9 +31,22 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video defaultmuted playsInline loop muted preload="none" poster="vf_happy_poster.jpg">
-               <source src="vf_happy.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+          <source src="vf_happy.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
+       
              <div className="text-container">
                <span>Vodafone Happy</span>
              </div>
@@ -33,9 +56,21 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video defaultmuted playsInline loop muted preload="none" poster="assets/videos/vf_new_id/vf_new_id.jpg">
-               <source src="assets/videos/ti_je_nje_luledielli.m4v" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="ti_je_nje_luledielli.m4v"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Vodafone New ID</span>
              </div>
@@ -47,9 +82,21 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video defaultmuted playsInline loop muted preload="none" poster="assets/videos/policia/policia.jpg">
-               <source src="assets/videos/golf_7.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="golf_7.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Policia e Shtetit</span>
              </div>
@@ -59,9 +106,21 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video default muted playsInline loop preload="none" poster="assets/videos/vf_city/vf_city.jpg">
-               <source src="assets/videos/vodafone city video.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="vodafone_city_video.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Vodafone City</span>
              </div>
@@ -73,9 +132,21 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video defaultmuted playsInline loop muted preload="none" poster="assets/videos/pepsi/pepsi.jpg">
-               <source src="assets/videos/pepsi_smileys.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="pepsi_smileys.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Pepsi</span>
              </div>
@@ -85,9 +156,21 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video id="test" defaultmuted playsInline loop muted preload="none" poster="assets/videos/vf_bazzar/vf_bazzar.jpg">
-               <source src="assets/videos/vf_bazar2.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="vf_bazar2.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Vodafone Bazzar</span>
              </div>
@@ -97,9 +180,21 @@ const Works = () => {
        <div className="item-container" id="testvideo">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video defaultmuted playsInline loop muted preload="none" poster="assets/videos/vf_christmas_card/vf_christmas_card.jpg?t=1">
-               <source src="assets/videos/xmas2.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="xmas2.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Vodafone Christmas Card</span>
              </div>
@@ -109,9 +204,21 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video defaultmuted playsInline loop muted preload="none" poster="assets/videos/vf_happy_2/vf_happy_2.jpg">
-               <source src="assets/videos/vodafone_happy_2.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="vodafone_happy_2.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Vodafone Happy</span>
              </div>
@@ -123,9 +230,21 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video defaultmuted playsInline loop muted preload="none" poster="assets/videos/strongbow/strongbow.jpg">
-               <source src="assets/videos/apple banak_new_2.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="apple_banak_new_2.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Strongbow</span>
              </div>
@@ -135,9 +254,21 @@ const Works = () => {
        <div className="item-container">
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
-             <video defaultmuted playsInline loop muted preload="none" poster="assets/videos/strongbow_2/strongbow_2.jpg">
-               <source src="assets/videos/christmas_lights_2.mp4" type="video/mp4" />
-             </video>
+           <Player
+                 id="player"
+          muted={true}
+          playing
+          loop={50}
+          autoPlay
+          fluid={false}
+          width="100%"
+          height = "auto"
+          >
+   <source src="christmas_lights_2.mp4"/>
+          <ControlBar disabled/>
+          <BigPlayButton disabled/>
+      
+        </Player>
              <div className="text-container">
                <span>Strongbow</span>
              </div>
@@ -148,7 +279,7 @@ const Works = () => {
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
              <div className="item">
-               <img src="assets/images/works/square/Nata-e-Bardhe375.gif" alt="" />
+               <img src="Nata-e-Bardhe375.gif" alt="" />
                <div className="text-container">
                  <span>Nata e bardhë</span>
                </div>
@@ -160,7 +291,7 @@ const Works = () => {
          <a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return false">
            <div className="item">
              <div className="item">
-               <img src="assets/images/works/square/MyVodafone375.gif" alt="" />
+               <img src="MyVodafone375.gif" alt="" />
                <div className="text-container">
                  <span>My Vodafone</span>
                </div>

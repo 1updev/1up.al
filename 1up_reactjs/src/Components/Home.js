@@ -15,6 +15,7 @@ const Home = () => {
 
     return(
        
+      <div id="move">
                  <Player
                  id="player"
           muted={true}
@@ -39,7 +40,7 @@ const Home = () => {
        
 
                 
-
+        </div>
         
      
 
