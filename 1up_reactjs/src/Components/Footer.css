@@ -1,0 +1,31 @@
+img {
+
+    width:30px;
+    height: 30px;
+}
+
+.main-footer
+{
+    
+padding-top: 0px;
+padding-bottom: 0px;
+background-color: #393939;
+color:white;
+}
+.info {
+
+    text-align: left;
+}
+.social 
+{
+    float: right;
+   
+}
+.copyright {
+
+    color: #989898;
+
+   
+    display: block;
+    text-align: center;
+}
